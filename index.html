@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="uz-Cyrl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#fff8f5" />
+  <meta name="description" content="Аиша 3 ёш ва Ясин 1 ёш — туғилган кун таклифномаси" />
+  <title>Аиша 3 ёш • Ясин 1 ёш</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,600&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="locked">
+  <div class="ambient ambient-pink"></div>
+  <div class="ambient ambient-blue"></div>
+  <div class="grain"></div>
+
+  <button class="music-toggle" id="musicToggle" aria-label="Мусиқани ёқиш/ўчириш" title="Мусиқа">
+    <span class="music-icon">♪</span>
+    <span class="music-bars" aria-hidden="true"><i></i><i></i><i></i></span>
+  </button>
+  <audio id="bgMusic" loop preload="auto">
+    <source src="assets/music.mp3" type="audio/mpeg">
+  </audio>
+
+  <section class="intro" id="intro" aria-label="Таклифномани очиш">
+    <div class="intro-stars" aria-hidden="true">
+      <img src="assets/star1.png" class="intro-star s1" alt="">
+      <img src="assets/star3.png" class="intro-star s2" alt="">
+      <img src="assets/pinkheart.png" class="intro-star s3" alt="">
+      <img src="assets/skyblueheart.png" class="intro-star s4" alt="">
+    </div>
+    <div class="intro-copy">
+      <span class="kicker">Сиз учун махсус таклифнома</span>
+      <h1>Икки карра<br><em>қувонч!</em></h1>
+      <p>Совғани босиб, байрамимизни очинг</p>
+    </div>
+    <button class="gift-button" id="openInvitation" aria-label="Таклифномани очиш">
+      <span class="gift-glow"></span>
+      <img src="assets/giftbox.png" alt="Оқ ва олтин лентали совға қутиси" class="gift" id="giftImg">
+      <span class="gift-hint">БОСИНГ</span>
+    </button>
+    <div class="burst" id="burst" aria-hidden="true">
+      <img src="assets/pinkballoons.png" class="burst-item b1" alt="">
+      <img src="assets/skyblueballoons.png" class="burst-item b2" alt="">
+      <img src="assets/confetti1.png" class="burst-item b3" alt="">
+      <img src="assets/confetti3.png" class="burst-item b4" alt="">
+      <img src="assets/star2.png" class="burst-item b5" alt="">
+    </div>
+  </section>
+
+  <main id="site" class="site" aria-hidden="true">
+    <section class="hero scene" id="hero">
+      <div class="sky-field" aria-hidden="true">
+        <img src="assets/cloud.png" class="cloud c1 depth" data-depth="0.10" alt="">
+        <img src="assets/cloud.png" class="cloud c2 depth" data-depth="0.16" alt="">
+        <img src="assets/pinkballoons.png" class="balloons pink-balloons depth" data-depth="0.26" alt="">
+        <img src="assets/skyblueballoons.png" class="balloons blue-balloons depth" data-depth="0.30" alt="">
+        <img src="assets/confetti2.png" class="ribbon r1 depth" data-depth="0.38" alt="">
+        <img src="assets/confetti3.png" class="ribbon r2 depth" data-depth="0.45" alt="">
+        <img src="assets/star1.png" class="floating-star fs1 depth" data-depth="0.55" alt="">
+        <img src="assets/star3.png" class="floating-star fs2 depth" data-depth="0.48" alt="">
+        <img src="assets/pinkheart.png" class="floating-heart fh1 depth" data-depth="0.62" alt="">
+        <img src="assets/skyblueheart.png" class="floating-heart fh2 depth" data-depth="0.62" alt="">
+      </div>
+
+      <div class="hero-content depth" data-depth="0.08">
+        <p class="hero-eyebrow">20 СЕНТЯБРЬ • 18:30</p>
+        <div class="name-row">
+          <div class="name name-pink">
+            <img src="assets/crown2.png" alt="" class="name-crown crown-pink">
+            <span>Аиша</span>
+            <small>3 ёш</small>
+          </div>
+          <span class="amp">&</span>
+          <div class="name name-blue">
+            <img src="assets/crown1.png" alt="" class="name-crown crown-blue">
+            <span>Ясин</span>
+            <small>1 ёш</small>
+          </div>
+        </div>
+        <p class="hero-subtitle">Қувончимиз икки карра,<br>байрамимиз эса — битта!</p>
+        <div class="scroll-cue"><span></span>Пастга суринг</div>
+      </div>
+    </section>
+
+    <section class="age-scene scene" id="ages">
+      <div class="age-clouds" aria-hidden="true">
+        <img src="assets/cloud.png" class="age-cloud ac1" alt="">
+        <img src="assets/cloud.png" class="age-cloud ac2" alt="">
+      </div>
+      <div class="age-stage">
+        <article class="age-card age-girl">
+          <img src="assets/pinkbow.png" class="age-bow" alt="">
+          <img src="assets/3balloon.png" class="number-balloon number-three" alt="3">
+          <div class="age-copy">
+            <span>Бизнинг маликамиз</span>
+            <h2>Аиша</h2>
+            <p>3 ёшга тўлди</p>
+          </div>
+        </article>
+
+        <div class="center-emblem">
+          <img src="assets/star1.png" alt="" class="emblem-star">
+          <span>Икки<br>карра<br>бахт</span>
+        </div>
+
+        <article class="age-card age-boy">
+          <img src="assets/crown1.png" class="age-crown" alt="">
+          <img src="assets/1balloon.png" class="number-balloon number-one" alt="1">
+          <div class="age-copy">
+            <span>Бизнинг шаҳзодамиз</span>
+            <h2>Ясин</h2>
+            <p>1 ёшга тўлди</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="invitation scene" id="invitation">
+      <div class="invitation-decor" aria-hidden="true">
+        <img src="assets/pinkheart.png" class="inv-heart ih1" alt="">
+        <img src="assets/skyblueheart.png" class="inv-heart ih2" alt="">
+        <img src="assets/star2.png" class="inv-star is1" alt="">
+        <img src="assets/star3.png" class="inv-star is2" alt="">
+      </div>
+      <div class="invitation-card">
+        <span class="tiny-gold">СИЗНИ КУТАМИЗ</span>
+        <h2>Азиз оиламиз,<br>яқинларимиз ва дўстларимиз!</h2>
+        <div class="gold-rule"><i></i><span>♥</span><i></i></div>
+        <p>Сизни фарзандларимиз <strong>Аиша</strong> ва <strong>Ясин</strong>нинг туғилган кун байрамига таклиф қиламиз.</p>
+        <p>Ушбу қувончли кунни сиз билан бирга нишонлаш биз учун катта бахт!</p>
+        <div class="date-medallion">
+          <span class="date-day">20</span>
+          <span class="date-month">СЕНТЯБРЬ</span>
+          <span class="date-time">18:30</span>
+        </div>
+        <div class="location-inline">
+          <span class="pin">⌖</span>
+          <div><small>МАНЗИЛ</small><strong>Восточное</strong></div>
+        </div>
+        <a class="map-button" href="https://2gis.kz/shymkent/geo/70000001030280046" target="_blank" rel="noopener noreferrer">2GIS’ДА ОЧИШ <span>↗</span></a>
+      </div>
+    </section>
+
+    <section class="countdown scene" id="countdown">
+      <div class="countdown-copy">
+        <span class="tiny-gold">ЭНГ ҚУВОНЧЛИ КУНГА</span>
+        <h2>Байрамга қолди</h2>
+      </div>
+      <div class="timer" aria-label="Тадбирга қолган вақт">
+        <div class="time-cell"><strong id="days">00</strong><span>КУН</span></div>
+        <div class="time-cell"><strong id="hours">00</strong><span>СОАТ</span></div>
+        <div class="time-cell"><strong id="minutes">00</strong><span>ДАҚИҚА</span></div>
+        <div class="time-cell"><strong id="seconds">00</strong><span>СОНИЯ</span></div>
+      </div>
+      <div class="countdown-decor" aria-hidden="true">
+        <img src="assets/pinkballoons.png" class="cd-balloon cb1" alt="">
+        <img src="assets/skyblueballoons.png" class="cd-balloon cb2" alt="">
+      </div>
+    </section>
+
+    <section class="finale scene" id="finale">
+      <div class="finale-particles" aria-hidden="true">
+        <img src="assets/confetti1.png" class="final-confetti fc1" alt="">
+        <img src="assets/confetti3.png" class="final-confetti fc2" alt="">
+        <img src="assets/star1.png" class="final-star fst1" alt="">
+        <img src="assets/star2.png" class="final-star fst2" alt="">
+        <img src="assets/pinkheart.png" class="final-heart fht1" alt="">
+        <img src="assets/skyblueheart.png" class="final-heart fht2" alt="">
+      </div>
+      <div class="finale-content">
+        <img src="assets/crown2.png" class="final-crown" alt="">
+        <h2>Сизни кутамиз!</h2>
+        <p>Қувончимизни биз билан<br>бирга баҳам кўринг.</p>
+        <div class="final-names"><span>Аиша</span><i>♥</i><span>Ясин</span></div>
+        <img src="assets/bear.png" class="bear" alt="Плюш айиқча">
+        <div class="final-date">20 • 09 • 2026</div>
+      </div>
+    </section>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
